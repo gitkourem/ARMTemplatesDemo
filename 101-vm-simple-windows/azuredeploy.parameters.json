@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "azureadmin"
+    },
+    "dnsLabelPrefix": {
+      "value": "simplewinvm1"
+    },
+    "vmName": {
+      "value": "simplewinvm1"
+    },
+    "diskSize": {
+      "value": 60
+    },
+    "windowsOSVersion": {
+      "value": "2016-Datacenter"
+    }
+  }
+}
